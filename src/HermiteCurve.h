@@ -19,7 +19,7 @@ public:
 	void input(DWORD);
 	void draw(HDC);
 private:
-	static constexpr auto ttp = 0.02f;
+	static constexpr auto ttp = 0.005f;
 	float timer;
 	float tt;
 	Point start, end;
